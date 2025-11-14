@@ -71,6 +71,4 @@ Replace <model_name> with the desired model and <task_list> with the tasks to ev
 
 - Include visualizations of performance trends across benchmarks.
 
-- Explore few-shot and zero-shot prompt engineering experiments.
-
 - Investigate fine-tuning and post-training effects on benchmark outcomes.
