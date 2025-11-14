@@ -56,11 +56,12 @@ The **135M model remains competitive** on several language-focused tasks, demons
 1. **Install LM Evaluation Harness**  
 ```bash
    git clone --depth 1 https://github.com/EleutherAI/lm-evaluation-harness
-    cd lm-evaluation-harness
-    pip install -e .
+   cd lm-evaluation-harness
+   pip install -e .
 ```
 
 2. **Run Evaluations**
+
 Replace <model_name> with the desired model and <task_list> with the tasks to evaluate:
 ```bash
    lm-eval --model <model_name> --tasks <task_list> --device cuda
